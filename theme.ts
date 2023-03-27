@@ -7,7 +7,7 @@ const props = {
   '--my-red': '#db4437',
   '--my-yellow': '#f4b400',
   '--my-green': '#0f9d58',
-  '--momo-brand': '#8ebfd7',
+  '--momo-brand': '#FFFF00',
 }
 
 export const myTheme = buildLegacyTheme({
