@@ -109,3 +109,12 @@ a {
     color-scheme: dark;
   }
 }
+
+.arrowSize{
+  height: 25px;
+  margin-right: 2em;
+}
+
+.text-color{
+  color: #f4b400;
+}
