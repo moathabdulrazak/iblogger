@@ -8,7 +8,7 @@ const StudioNavbar = (props: any) => {
       <div className='flex items-center' >
         <Link className='text-[#f4b400] flex items-center text-color'  href="/">
           <ArrowUturnLeftIcon className=' arrowSize text-[#f4b400] h-6 w-6 mr-2 ' />
-        Go to frontend
+        Go to websites
         </Link>
       </div>
       <>{props.renderDefault(props)}</>
