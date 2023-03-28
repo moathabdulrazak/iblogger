@@ -20,7 +20,14 @@ const Header = () => {
       </div>
 
 
-      <div></div>
+      <div className='flex items-center space-x-2 ml-2 pr-5'>
+      <Link href="/studio">
+        <h1 className='px-5 py-3 text-sm md:text-base bg-gray-900 text-[#F7AB0A] flex items-center rounded-full text-center'>
+          Post
+        </h1>
+      </Link>
+      <p className="text-gray-500 text-sm">(if you're authorized by admin)</p>
+    </div>
     </header>
   )
 }
