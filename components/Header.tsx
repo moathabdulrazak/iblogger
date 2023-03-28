@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { GlobeAltIcon, UserGroupIcon } from '@heroicons/react/24/solid'
@@ -30,6 +32,7 @@ const Header = () => {
         <p className='text-gray-500 text-sm'>(if you're authorized by admin)</p>
 
       </div>
+      
     </header>
   )
 }
