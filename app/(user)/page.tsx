@@ -39,6 +39,11 @@ export default async function HomePage() {
   const posts = await client.fetch(query);
   return (<div>
     <BlogList posts={posts} />
+    {/* <footer>
+    moath
+  </footer> */}
   </div>
+
+ 
   )
 }
