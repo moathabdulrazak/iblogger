@@ -1,5 +1,3 @@
-## Iblogger
-
 iBlogger is a personal blogging website created using Sanity, Next.js, and Tailwind CSS. The website features a clean and modern design, with a focus on readability and usability.
 
 Technologies Used
