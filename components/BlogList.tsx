@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import urlFor from '@/lib/urlFor';
 import category from '@/schemas/category';
+import { ArrowUpRightIcon } from '@heroicons/react/24/solid';
 type Props = {
   posts: Array<Post>;
 };
@@ -11,7 +12,7 @@ const BlogList = ({ posts }: Props) => {
     <div>
       <hr className='border-[#F7AB0A] mb-10'  />
 
-   <div>
+   <div className='grid grid-cols-1 md:grid-cols-2 px-10  gap-10 gap-y-16 pb-24' >
   {posts.map((post) => {
     return (
       <div key={post._id} className='group cursor-pointer flex flex-col' >
@@ -50,6 +51,10 @@ const BlogList = ({ posts }: Props) => {
           <p className='underline text-lg font-bold' >{post.title}</p>
           <p className='text-gray-500  line-clamp-2' >{post.description}</p>
         </div>
+        <p className='mt-5 font-bold flex items-center group-hover:underline' >
+          read post
+          <ArrowUpRightIcon className='ml-2 h-4 w-4'/>
+        </p>
       </div>
     );
   })}
