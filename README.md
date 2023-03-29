@@ -9,8 +9,6 @@ To visit the website, simply go to https://iblogger-moathabdulrazak.vercel.app/.
 
 Features
 Blog posts with rich text and images
-Author pages with biographical information and a list of their posts
-Search functionality to find posts by title or content
 Responsive design that adapts to different screen sizes
 Contributing
 If you find a bug or have a suggestion for a new feature, feel free to open an issue or submit a pull request. Contributions are always welcome!
