@@ -13,6 +13,8 @@ const query = groq`
   } | order(_createdAt desc)
   
 `
+export const revalidate = 60;
+
 function PreviewSuspenseFallback() {
   return (
     <div role="status">
